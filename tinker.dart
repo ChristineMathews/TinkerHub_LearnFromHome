@@ -38,3 +38,34 @@ class LearnerOrMentor{
    }
  }
 }
+void main() {
+
+  LearnerOrMentor person = new LearnerOrMentor();
+  String n,stack;
+  int i,time;
+   void getMentor(var x,var y,var z,int m){
+   if (m==0)
+   { 
+     print("No one is registerd");
+   }
+   else{
+
+    for (i=1;i<=m;i++){
+      if (y[i]==1){
+        stack=x[i];
+        time=z[i];
+      }}}}
+  while(true)
+  {
+    print(" Enter 1 for Add person 2 for checking available mentors:\n");
+    n = stdin.readLineSync();
+    if (n=='1')
+    {
+      person.address();
+    }
+    else if (n=='2'){
+      getMentor(person.stackList,person.mOrL,person.atlist,person.limit);
+    }
+    else{
+      print("Invalid Option");
+    }}}
