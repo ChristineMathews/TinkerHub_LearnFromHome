@@ -1,6 +1,9 @@
 # tink
 
-A new Flutter project.
+-Changed the color of demo project to Red
+-Changed the icon Widget
+-Included extra button to decrement
+-Implemented Speed dial button for incrementing and decrementing
 
 ## Getting Started
 
